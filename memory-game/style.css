@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  background: radial-gradient(#9d5900, #3d2200);
+}
+
+.container {
+  margin: 0 auto;
+  width: 750px;
+}
+
+.game-grid {
+  display: flex;
+  flex-wrap: wrap;
+  height: 600px;
+  width: 100%;
+  border: 1px solid black;
+  padding: 10px 20px;
+}
+
+.game-grid img {
+  object-fit: contain;
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+}
